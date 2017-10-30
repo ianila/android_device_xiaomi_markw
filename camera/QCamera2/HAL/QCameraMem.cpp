@@ -951,7 +951,7 @@ int QCameraHeapMemory::getRegFlags(uint8_t * /*regFlags*/) const
  * RETURN     : camera memory ptr
  *              NULL if not supported or failed
  *==========================================================================*/
-camera_memory_t *QCameraHeapMemory::gNot of type video meta bufferetMemory(uint32_t /*index*/, bool /*metadata*/) const
+camera_memory_t *QCameraHeapMemory::getMemory(uint32_t /*index*/, bool /*metadata*/) const
 {
     return NULL;
 }
