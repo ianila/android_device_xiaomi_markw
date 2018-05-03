@@ -24,14 +24,6 @@ $(call inherit-product, vendor/xiaomi/markw/markw-vendor.mk)
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
 
-PRODUCT_ENFORCE_RRO_TARGETS := \
-   Bluetooth \
-   Settings \
-   SettingsProvider \
-   SystemUI \
-   framework-res \
-   org.lineageos.platform-res
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
